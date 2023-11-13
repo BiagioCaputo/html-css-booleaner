@@ -1,0 +1,21 @@
+.container{
+    max-width: 1080px;
+    margin:0 auto;
+
+}
+
+.logo{
+    margin-top: 0;
+    max-width: 1080px;
+    height: 100px;
+    background-color:dodgerblue;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    text-align: center;
+}
+
+.intro{
+    text-align: left;
+    margin-left: 40px;
+}
+

@@ -1,5 +1,5 @@
 .container{
-    max-width: 1440px;
+    max-width: 1140px;
     margin:0 auto;
 
 }
@@ -9,7 +9,7 @@
     max-width: 1440px;
     height: 100px;
     background-color:dodgerblue;
-    background-image: url(../img/logo.png);
+    background-image: url(../img/pattern.png);
     background-size: contain;
     text-align: left;
     padding-bottom: 20px;
@@ -18,8 +18,14 @@
 .intro{
     text-align: left;
     margin-left: 80px;
-    padding-top: 50px;
-    line-height: 0.9em;
+    margin-bottom: 20px;
+    line-height: 0,9em;
+
+}
+
+a{
+    text-decoration: none;
+    color:dodgerblue;
 }
 
 main{
@@ -34,17 +40,58 @@ figcaption{
     margin-top:-10px;
     line-height: 0.1em;
     font-style: normal;
+    font-size: smaller;
 }
 span{
     background-color: yellow;
 }
+.lista{
+    list-style-position: unset;
+    
+}
 
+table{
+    border-collapse: collapse;
+}
+td{
+    width:33%;
+}
+thead{
+    color:white;
+    background-color: dodgerblue;
+}
+
+.colonnaceleste{
+    background-color: lightskyblue;
+}
 .fotomonitor{
     background-image: url(../img/monitor.jpg);
+    color:white;
+    background-repeat: no-repeat;
+    font-size:100%;
+    font-weight:normal;
+    line-height: 40px;
+    width:290px;
+    height:200px;
+    margin-top:25px;
 
 }
 
+
 .fotografico{
     background-image: url(../img/graph.jpg);
-
+    color:white;
+    background-repeat: no-repeat;
+    font-size:100%;
+    font-weight:normal;
+    line-height:40px;
+    width:290px;
+    height:200px;
+    margin-top: 20px;
+}
+footer{
+    color:grey;
+    font-size: 21px;
+    font-style: normal;
+    margin-left: 80px;
 }

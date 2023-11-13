@@ -18,16 +18,25 @@
 .intro{
     text-align: left;
     margin-left: 80px;
+    padding-top: 50px;
+    line-height: 0.9em;
 }
 
 main{
     margin-left: 80px;
 }
 
+.fotovips{
+    margin-bottom: 35px;
+}
+
 figcaption{
     margin-top:-10px;
     line-height: 0.1em;
-    text-transform: lowercase;
+    font-style: normal;
+}
+span{
+    background-color: yellow;
 }
 
 .fotomonitor{

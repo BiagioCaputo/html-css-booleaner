@@ -23,3 +23,14 @@ main{
     margin-left: 40px;;
 }
 
+
+
+.fotomonitor{
+    background-image: url(../img/monitor.jpg);
+
+}
+
+.fotografico{
+    background-image: url(../img/graph.jpg);
+
+}
